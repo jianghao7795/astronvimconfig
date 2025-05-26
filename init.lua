@@ -17,6 +17,3 @@ end
 
 require "lazy_setup"
 require "polish"
-vim.opt.updatetime = 300
-vim.opt.number = true
-vim.opt.relativenumber = false
