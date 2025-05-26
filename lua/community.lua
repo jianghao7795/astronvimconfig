@@ -5,7 +5,7 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.lua" }
+  -- { import = "astrocommunity.pack.lua" }
   -- { import = "astrocommunity.colorscheme.onedark" },
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua" },
@@ -15,4 +15,5 @@ return {
   -- { import = "astrocommunity.colorscheme.tokyodark-nvim" }
   -- { import = "astrocommunity.colorscheme.aurora" }
   -- { import = "astrocommunity.colorscheme.bamboo-nvim" }
+  { import = "astrocommunity.colorscheme.kanagawa-nvim" },
 }
