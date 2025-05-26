@@ -1,1 +1,3 @@
-return { "ribru17/bamboo.nvim", lazy = true }
+if true then return {} end 
+
+-- return { "ribru17/bamboo.nvim", lazy = true }
