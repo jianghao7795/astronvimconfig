@@ -1,4 +1,6 @@
 return {
   "neovim/nvim-lspconfig",
-  config = function() require("lspconfig").volar.setup {} end,
+  opts = {
+    ensure_installed = { "volar" },
+  },
 }
