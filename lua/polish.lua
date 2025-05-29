@@ -1,5 +1,17 @@
-if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- This will run last in the setup process.
 -- This is just pure lua so anything that doesn't
 -- fit in the normal config locations above can go here
+--
+-- local lspconfig = require "lspconfig"
+--
+-- lspconfig.volar.setup {
+--   filetypes = { "vue" },
+--   init_options = {
+--     vue = {
+--       hybridMode = false,
+--     },
+--   },
+--   root_dir = function ()
+--
+--   end
+-- }
